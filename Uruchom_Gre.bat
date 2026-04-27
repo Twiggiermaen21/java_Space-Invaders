@@ -4,7 +4,7 @@ echo 🚀 Kompilowanie i uruchamianie Space Invaders...
 echo.
 
 if not exist "target\classes" mkdir "target\classes"
-javac --release 21 -d target\classes src\main\java\com\mycompany\space_invaders\*.java
+javac --release 21 -d target\classes -sourcepath src\main\java src\main\java\com\mycompany\space_invaders\Space_Invaders.java
 
 if %ERRORLEVEL% NEQ 0 (
     echo.

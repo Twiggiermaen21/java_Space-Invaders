@@ -36,7 +36,7 @@ Skrypt ten automatycznie skompiluje cały projekt (do kompatybilnej wersji Java 
 Jeśli wolisz korzystać z narzędzi konsolowych, możesz skompilować kod i uruchomić go samodzielnie:
 ```bash
 # Ręczna kompilacja i uruchomienie (bez Mavena)
-javac --release 21 -d target/classes src/main/java/com/mycompany/space_invaders/*.java
+javac --release 21 -d target/classes -sourcepath src/main/java src/main/java/com/mycompany/space_invaders/Space_Invaders.java
 java -cp target/classes com.mycompany.space_invaders.Space_Invaders
 ```
 
