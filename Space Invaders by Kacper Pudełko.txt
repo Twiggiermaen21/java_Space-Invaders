@@ -1,0 +1,20 @@
+Space Invaders by Kacper Pudełko
+
+Zasady dzialania programu:
+1.Każdy poziom mozemy rozegrać tylko raz w trakcie działania programu.(by uruchomic go ponownie trzeba zrestartowac gre).
+2.Gra posiada 5 leveli (4 normalne w ktrórych zmienia sie trudność poziomu rozgrywki  + poziom z bosem).
+3. Statek porusza sie na strzałkach lub wsad, strzal spacja, statek posiada maksymalnie 4 naboje równocześnie.
+4. Po straceniu 3 życ gra zostaje zakonczona i przegrana.
+
+
+Jeśli program nie dziala chyba trzeba zmienic lokalizacje plikow graficznych.
+1.--->folder files 
+2. klasy w ktorych znajdują się importy plikow:
+-player.java
+-monster.java
+-boomaudio.java
+-audio.java
+-Tlo.java
+-Shot.java
+-Game_over_Panel.java
+-GameStart.java
