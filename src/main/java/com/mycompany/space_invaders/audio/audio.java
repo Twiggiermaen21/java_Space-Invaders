@@ -1,11 +1,5 @@
 package com.mycompany.space_invaders.audio;
 
-import com.mycompany.space_invaders.ui.*;
-import com.mycompany.space_invaders.entities.*;
-import com.mycompany.space_invaders.audio.*;
-import com.mycompany.space_invaders.levels.*;
-import com.mycompany.space_invaders.core.*;
-import com.mycompany.space_invaders.Space_Invaders;
 
 
 import java.io.*;
