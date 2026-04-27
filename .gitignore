@@ -1,0 +1,41 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+build.log
+.incremental
+.polyglot.yml
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# IDE - IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# IDE - Eclipse
+.settings/
+.project
+.classpath
+.factorypath
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary/Scripts
+*.py
+lib/junit-platform-console-standalone.jar
+lib/junit-jupiter-api.jar
+lib/opentest4j.jar
+lib/junit-platform-commons.jar

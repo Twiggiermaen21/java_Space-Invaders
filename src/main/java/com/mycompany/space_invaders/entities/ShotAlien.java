@@ -34,8 +34,7 @@ public class ShotAlien {
         if (y_shot > 900) {
             goDown = false;
             y_shot = setY;
-        }
-        if (goDown) {
+        } else if (goDown) {
             y_shot = y_shot + speed;
         }
     }
